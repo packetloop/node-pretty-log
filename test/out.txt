@@ -1,0 +1,67 @@
+webpack dev server listening at localhost:4000
+Server built...
+Server restarting...
+webpack: bundle is now VALID.
+failed with status code: 404
+REQUEST response body undefined
+failed with status code: 401
+
+3/31/2016, 15:55:15
+  requestTimeout: [32m'1m'[39m
+  message: [32m'atlas-ui@1.2.2 is listening on 0.0.0.0:3000'[39m
+
+3/31/2016, 15:55:33
+  url: [32m'/login'[39m
+  method: [32m'GET'[39m
+  status: [33m200[39m
+  responseTime: [33m27.442[39m
+  httpVersion: [32m'1.1'[39m
+  referrer: [32m''[39m
+  remoteAddr: [32m'127.0.0.1'[39m
+  remoteUser: [32m''[39m
+  userAgent: [32m'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2694.1 Safari/537.36'[39m
+
+3/31/2016, 15:55:39
+  url: [32m'/graphql'[39m
+  method: [32m'POST'[39m
+  status: [33m200[39m
+  responseTime: [33m1096.725[39m
+  httpVersion: [32m'1.1'[39m
+  referrer: [32m'http://localhost:3000/login'[39m
+  remoteAddr: [32m'127.0.0.1'[39m
+  remoteUser: [32m''[39m
+  userAgent: [32m'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2694.1 Safari/537.36'[39m
+
+3/31/2016, 16:09:54
+  url: [32m'/login'[39m
+  method: [32m'GET'[39m
+  status: [33m200[39m
+  responseTime: [33m11.333[39m
+  httpVersion: [32m'1.1'[39m
+  referrer: [32m''[39m
+  remoteAddr: [32m'127.0.0.1'[39m
+  remoteUser: [32m''[39m
+  userAgent: [32m'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2694.1 Safari/537.36'[39m
+
+3/31/2016, 16:10:21
+  url: [32m'/graphql'[39m
+  method: [32m'POST'[39m
+  status: [33m200[39m
+  responseTime: [33m1129.584[39m
+  httpVersion: [32m'1.1'[39m
+  referrer: [32m'http://localhost:3000/login'[39m
+  remoteAddr: [32m'127.0.0.1'[39m
+  remoteUser: [32m''[39m
+  userAgent: [32m'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2694.1 Safari/537.36'[39m
+
+3/31/2016, 16:43:00
+  url: [32m'/graphql'[39m
+  method: [32m'POST'[39m
+  status: [33m200[39m
+  responseTime: [33m1030.398[39m
+  httpVersion: [32m'1.1'[39m
+  referrer: [32m'http://localhost:3000/login'[39m
+  remoteAddr: [32m'127.0.0.1'[39m
+  remoteUser: [32m''[39m
+  userAgent: [32m'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2694.1 Safari/537.36'[39m
+
