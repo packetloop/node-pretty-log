@@ -1,0 +1,57 @@
+{
+  "name": "packetloop-node-pretty-log",
+  "version": "0.0.0",
+  "author": {
+    "name": "Nik Butenko",
+    "email": "nik@butenko.me",
+    "url": "https://twitter.com/@nkbtnk"
+  },
+  "bugs": {
+    "url": "https://github.com/packetloop/node-pretty-log/issues"
+  },
+  "contributors": [
+    {
+      "name": "Nik Butenko",
+      "email": "nik@butenko.me",
+      "url": "https://twitter.com/@nkbtnk"
+    }
+  ],
+  "description": "Packetloop's shell script to parse standard new-line delimited JSON log and output in a readable format",
+  "homepage": "https://github.com/packetloop/node-pretty-log",
+  "keywords": [
+    "packetloop",
+    "eslint",
+    "eslintconfig",
+    "config",
+    "airbnb",
+    "javascript",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "bin": {
+    "packetloop-node-pretty-log": "lib/bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/packetloop/node-pretty-log.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "lint": "eslint .",
+    "test": "npm run --silent lint",
+    "postversion": "git push --follow-tags",
+    "prepublish": "npm run build -s"
+  },
+  "engines": {
+    "node": "6"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6",
+    "babel-preset-es2015-node6": "^0.2",
+    "eslint": "^2",
+    "eslint-config-packetloop": "github:packetloop/eslint-config-packetloop"
+  },
+  "peerDependencies": {}
+}
