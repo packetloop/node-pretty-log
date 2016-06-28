@@ -37,6 +37,7 @@
   "scripts": {
     "build": "babel src --out-dir lib",
     "lint": "eslint .",
+    "pretest": "npm run build -s",
     "test": "./test/prettyLog.sh",
     "postversion": "git push --follow-tags",
     "prepublish": "npm run build -s"
